@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 25-03-2025
+Ejercicio: Ejercicio 1
+-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libros)>
+    <!ELEMENT libros (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, cantidadPaginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT cantidadPaginas (#PCDATA)>
+]>
+<biblioteca>
+    <libros>
+        <libro>
+            <titulo>Cien Años de Soledad</titulo>
+            <editorial>Penguin Random House</editorial>
+            <autor>
+                <nombre>Gabriel</nombre>
+                <apellidos>García Márquez</apellidos>
+            </autor>
+            <cantidadPaginas>432</cantidadPaginas>
+        </libro>
+        <libro>
+            <titulo>El Principito</titulo>
+            <editorial>Salamandra</editorial>
+            <autor>
+                <nombre>Antoine</nombre>
+                <apellidos>de Saint-Exupéry</apellidos>
+            </autor>
+            <cantidadPaginas>96</cantidadPaginas>
+        </libro>
+        <libro>
+            <titulo>Harry Potter y la Piedra Filosofal</titulo>
+            <editorial>Salamandra</editorial>
+            <autor>
+                <nombre>J.K.</nombre>
+                <apellidos>Rowling</apellidos>
+            </autor>
+            <cantidadPaginas>264</cantidadPaginas>
+        </libro>
+    </libros>
+</biblioteca>

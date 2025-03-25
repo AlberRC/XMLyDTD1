@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 25-03-2025
+Ejercicio: Ejercicio 2
+-->
+<!DOCTYPE ligaBaloncesto SYSTEM "validador.dtd">
+<ligaBaloncesto>
+    <equipos>
+        <jugadores>
+            <jugador>
+                <nombre>LeBron</nombre>
+                <apellidos>James</apellidos>
+                <equipo>
+                    <ciudad>Los Angeles</ciudad>
+                    <presidente>
+                        <nombrePresidente>Jeanie</nombrePresidente>
+                        <apellidosPresidente>Buss</apellidosPresidente>
+                    </presidente>
+                </equipo>
+                <edad>39</edad>
+            </jugador>
+            <jugador>
+                <nombre>Anthony</nombre>
+                <apellidos>Davis</apellidos>
+                <equipo>
+                    <ciudad>Los Angeles</ciudad>
+                    <presidente>
+                        <nombrePresidente>Jeanie</nombrePresidente>
+                        <apellidosPresidente>Buss</apellidosPresidente>
+                    </presidente>
+                </equipo>
+                <edad>31</edad>
+            </jugador>
+            <jugador>
+                <nombre>D'Angelo</nombre>
+                <apellidos>Russell</apellidos>
+                <equipo>
+                    <ciudad>Los Angeles</ciudad>
+                    <presidente>
+                        <nombrePresidente>Jeanie</nombrePresidente>
+                        <apellidosPresidente>Buss</apellidosPresidente>
+                    </presidente>
+                </equipo>
+                <edad>28</edad>
+            </jugador>
+        </jugadores>
+    </equipos>
+</ligaBaloncesto>
